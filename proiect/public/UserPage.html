@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Cinema Village</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="output.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Animation.js" defer></script>
+    <script src="https://kit.fontawesome.com/7d75bced7a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="IuliaLogo.png">
+    
+</head>
+
+<body class="bg-zinc-50">
+       
+    <div>
+        <nav class=" flex items-center justify-between bg-zinc-50 p-5 text-slate-700  font-BarlowSemiCondensed">
+            <a href="./index.html" class="text-4xl font-Fraunces">Cinema Village</a>
+            <ul class="flex items-center gap-5">
+                <li class="text-slate-700 text-xl">First Name Last Name</li>
+                <li><i class="fa-regular fa-user fa-xl" style="color: #ff7575;"></i></li>
+            </ul>
+         </nav> 
+         
+    </div>
+    <div class="flex items-center justify-center w-screen flex-col">
+        <h1 class="text-slate-700 text-4xl mb-9 font-Fraunces">Reservations</h1>
+        <div class="flex gap-16">
+            <div class="flex flex-col justify-center text-center">
+                <h1 class="text-slate-700 text-3xl m-4 font-Fraunces">Ongoing</h1>
+                <div id="Ongoing" class="w-96 max-h-96 mx-20 border-2 rounded-md border-red-400 overflow-y-scroll ">
+                    <ul class="font-BarlowSemiCondensed">
+                        <li class="m-5 p-10 border-b-2">Title 1 Date Time</li>
+                        <li class="m-5 p-10 border-b-2">Title 1 Date Time</li>
+                        <li class="m-5 p-10 border-b-2">Title 1 Date Time</li>
+                        <li class="m-5 p-10 border-b-2">Title 1 Date Time</li>
+                        <li class="m-5 p-10 border-b-2">Title 1 Date Time</li>
+                        <li class="m-5 p-10 border-b-2">Title 1 Date Time</li>
+
+
+                    </ul>
+                
+                </div>
+            </div>
+            <div class="flex flex-col justify-center text-center">
+                <h1 class="text-slate-700 text-3xl m-4 font-Fraunces">Past</h1>
+                <div id="Past" class="w-96 max-h-96 mx-20 border-2 rounded-md border-slate-700 overflow-y-scroll ">
+                    <ul class="font-BarlowSemiCondensed">
+                        <li class="m-5 p-10 border-b-2">Title 1 <button class="mx-5"> Add review</button></li>
+                        <li class="m-5 p-10 border-b-2">Title 1 <button class="mx-5"> Add review</button></li>
+                        <li class="m-5 p-10 border-b-2">Title 1 <button class="mx-5"> Add review</button></li>
+                        <li class="m-5 p-10 border-b-2">Title 1 <button class="mx-5"> Add review</button></li>
+                        <li class="m-5 p-10 border-b-2">Title 1 <button class="mx-5"> Add review</button></li>
+                        <li class="m-5 p-10 border-b-2">Title 1 <button class="mx-5"> Add review</button></li>
+                        <li class="m-5 p-10 border-b-2">Title 1 <button class="mx-5"> Add review</button></li>
+                    </ul>
+                
+                </div>
+            </div>
+        </div>
+        <button
+  class="inline-flex items-center px-4 py-2 bg-red-600 transition ease-in-out delay-75 hover:bg-red-700 text-white text-sm font-medium rounded-md hover:-translate-y-1 hover:scale-110"
+>
+  <svg
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    fill="none"
+    class="h-5 w-5 mr-2"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+      stroke-width="2"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    ></path>
+  </svg>
+
+  Delete Account
+</button>
+    </div>
+   
+
+
+</body>
+
+</html>
