@@ -80,4 +80,3 @@ FormTitle.innerHTML="Sign Up"
 
 }
 }
-
